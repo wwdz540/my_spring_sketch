@@ -52,6 +52,14 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.7</version>
+		</dependency>
+
+
 		<!-- 内存数据库hsqldb -->
 		<dependency>
 			<groupId>org.hsqldb</groupId>

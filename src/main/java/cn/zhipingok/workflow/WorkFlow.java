@@ -19,6 +19,15 @@ public class WorkFlow {
     private WorkNode end;
 
 
+    public void setBegin(WorkNode begin){
+        this.begin = begin;
+        addNode(begin);
+    }
+
+    public void setEnd(WorkNode end){
+        this.end = end;
+        addNode(end);
+    }
 
     public void addNode(WorkNode node){
         nodes.add(node);
